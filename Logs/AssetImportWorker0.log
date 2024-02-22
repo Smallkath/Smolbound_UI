@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Timba/Desktop/Timba/Smolville/Unity/Prueba_Smolville
+C:/Users/Timba/Desktop/Timba/Smolville/Unity/SmolBound_UI
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61869
-Successfully changed project path to: C:/Users/Timba/Desktop/Timba/Smolville/Unity/Prueba_Smolville
-C:/Users/Timba/Desktop/Timba/Smolville/Unity/Prueba_Smolville
+58168
+Successfully changed project path to: C:/Users/Timba/Desktop/Timba/Smolville/Unity/SmolBound_UI
+C:/Users/Timba/Desktop/Timba/Smolville/Unity/SmolBound_UI
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/Timba/Desktop/Timba/Smolville/Unity/Prueba_Smolville
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16328] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 2171233832 [EditorId] 2171233832 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SBGCGVE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13332] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 470001688 [EditorId] 470001688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SBGCGVE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16328] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 2171233832 [EditorId] 2171233832 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SBGCGVE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13332] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 470001688 [EditorId] 470001688 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SBGCGVE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 32.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 23.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Timba/Desktop/Timba/Smolville/Unity/Prueba_Smolville/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Timba/Desktop/Timba/Smolville/Unity/SmolBound_UI/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017635 seconds.
-- Loaded All Assemblies, in  0.513 seconds
+Registered in 0.023484 seconds.
+- Loaded All Assemblies, in  0.681 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.338 seconds
-Domain Reload Profiling: 847ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (238ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (182ms)
-		LoadAssemblies (173ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (233ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (339ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
+		SetupLoadedEditorAssemblies (472ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (152ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (219ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 847ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.025 seconds
-Refreshing native plugins compatible for Editor in 8.71 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.150 seconds
+Refreshing native plugins compatible for Editor in 13.33 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.815 seconds
-Domain Reload Profiling: 1829ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling: 2106ms
+	BeginReloadAssembly (251ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (674ms)
-		LoadAssemblies (549ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (734ms)
+		LoadAssemblies (602ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (249ms)
-			TypeCache.Refresh (215ms)
-				TypeCache.ScanAssembly (191ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (815ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (217ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (966ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (604ms)
+		SetupLoadedEditorAssemblies (715ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (118ms)
-			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (27ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 10.42 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 12.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (244.8 KB). Loaded Objects now: 4473.
-Memory consumption went from 141.1 MB to 140.9 MB.
-Total: 3.782100 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.300400 ms MarkObjects: 2.943300 ms  DeleteObjects: 0.226400 ms)
+Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (244.9 KB). Loaded Objects now: 4472.
+Memory consumption went from 141.0 MB to 140.8 MB.
+Total: 4.136900 ms (FindLiveObjects: 0.322200 ms CreateObjectMapping: 0.278900 ms MarkObjects: 3.291500 ms  DeleteObjects: 0.243200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,9 +180,234 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 49414.884931 seconds.
-  path: Assets/Art/UI Import/Sprites_UI
-  artifactKey: Guid(beaf3a4847d5fc24d96cff8effe3397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI Import/Sprites_UI using Guid(beaf3a4847d5fc24d96cff8effe3397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9d8fa361425aba7f46ec8a220d750d') in 0.002792 seconds
+  Time since last request: 12384.230613 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Bold SDF.asset
+  artifactKey: Guid(4bf6c4b406c48d740b621c6e657fb36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Bold SDF.asset using Guid(4bf6c4b406c48d740b621c6e657fb36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3c111f6a320de43e3ec2d420c19e09') in 0.229300 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 26.518207 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Regular SDF.asset
+  artifactKey: Guid(7899cf3aec1baef459de46b4df17ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Regular SDF.asset using Guid(7899cf3aec1baef459de46b4df17ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32132f7a6a6c73a2dc18cfb0f0eb57fb') in 0.046194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.531436 seconds.
+  path: Assets/Fonts/UI Import/Gabarito-Bold.ttf
+  artifactKey: Guid(0ef6d16b65f17894fad7ee8cdb6b34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Gabarito-Bold.ttf using Guid(0ef6d16b65f17894fad7ee8cdb6b34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b316287a925e6c55e7e13636cca7166') in 0.040773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 13.094728 seconds.
+  path: Assets/Fonts/UI Import/Gabarito-Bold SDF.asset
+  artifactKey: Guid(ec8ecb6bcc41dd34e85c2f5dacb945f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Gabarito-Bold SDF.asset using Guid(ec8ecb6bcc41dd34e85c2f5dacb945f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fe9d68dca02c6d91b513cbb293db56') in 0.033733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 124.254041 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Bold SDF.asset
+  artifactKey: Guid(4bf6c4b406c48d740b621c6e657fb36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Bold SDF.asset using Guid(4bf6c4b406c48d740b621c6e657fb36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301a9877ffb895b826e0d6f61070b7bc') in 0.047683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 27.307232 seconds.
+  path: Assets/Fonts/UI Import/Gabarito-Bold SDF.asset
+  artifactKey: Guid(4bf6c4b406c48d740b621c6e657fb36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Gabarito-Bold SDF.asset using Guid(4bf6c4b406c48d740b621c6e657fb36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44041ea8a42f9f63833d4f4a42234344') in 0.048505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 269.695775 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Bold Blue Atlas Material.mat
+  artifactKey: Guid(8a42b48fc760e2a4e815f9dffe5787f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Bold Blue Atlas Material.mat using Guid(8a42b48fc760e2a4e815f9dffe5787f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de694fe98f357567ae1e644d966078c1') in 0.044748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 152.194894 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Regular Blue Atlas Material.mat
+  artifactKey: Guid(10da08dc8f1e0d742b2b224238c173a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Regular Blue Atlas Material.mat using Guid(10da08dc8f1e0d742b2b224238c173a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd325068de7636e849affaf6650204ec7') in 0.034593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 523.762756 seconds.
+  path: Assets/Fonts/UI Import/Nunito-Medium.ttf
+  artifactKey: Guid(c627fd22575692840b939fafb9701519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Nunito-Medium.ttf using Guid(c627fd22575692840b939fafb9701519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152380189e0fadbdfc36f8f09aa00918') in 0.072257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.227194 seconds.
+  path: Assets/Fonts/UI Import/Nunito-Medium Blue Atlas Material.mat
+  artifactKey: Guid(5b04feae37199dc44b871253b114b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Nunito-Medium Blue Atlas Material.mat using Guid(5b04feae37199dc44b871253b114b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555fabc8d9a6a4d4865931c588cf65f6') in 0.066730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 156.111417 seconds.
+  path: Assets/Fonts/UI Import/Karla-Bold.ttf
+  artifactKey: Guid(ba7e792d535912141baae02fc7c98ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Karla-Bold.ttf using Guid(ba7e792d535912141baae02fc7c98ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902e9e1bc9edcf3e964f708235582420') in 0.044173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 137.425211 seconds.
+  path: Assets/Fonts/UI Import/Nunito-Medium SDF.asset
+  artifactKey: Guid(d7848985b82e9cc4b834a074a0dd9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Nunito-Medium SDF.asset using Guid(d7848985b82e9cc4b834a074a0dd9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4666338ea43230b6bddd7527f2f919') in 0.042619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 93.725523 seconds.
+  path: Assets/Fonts/UI Import/Nunito-Medium SDF.asset
+  artifactKey: Guid(d7848985b82e9cc4b834a074a0dd9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Nunito-Medium SDF.asset using Guid(d7848985b82e9cc4b834a074a0dd9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036806500e6e39d54b4021552f4b8f62') in 0.044896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 43.482983 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Bold White Atlas Material.mat
+  artifactKey: Guid(2b72d615d6d99124e86f3feb6bceba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Bold White Atlas Material.mat using Guid(2b72d615d6d99124e86f3feb6bceba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e55f2da235908583fe36c5d4b56170') in 0.032279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 209.608616 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Bold shadow.asset
+  artifactKey: Guid(2965410e4ba30a24083c643f9d7aa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Bold shadow.asset using Guid(2965410e4ba30a24083c643f9d7aa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a3c9cd94536321da5ccd20e1379fd7') in 0.045078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 51.215104 seconds.
+  path: Assets/Fonts/UI Import/Karla-Bold SDF.asset
+  artifactKey: Guid(d7848985b82e9cc4b834a074a0dd9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Karla-Bold SDF.asset using Guid(d7848985b82e9cc4b834a074a0dd9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588b0508637d1c14a73ede9a5ecf908c') in 0.041285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 76.389040 seconds.
+  path: Assets/Fonts/UI Import/Gabarito-Regular.ttf
+  artifactKey: Guid(1dd95eba7ef6a28489344aee9bb81001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Gabarito-Regular.ttf using Guid(1dd95eba7ef6a28489344aee9bb81001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8c2cf0c5e52c477d6a8df725652c96') in 0.019692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 37.113692 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Regular SDF.asset
+  artifactKey: Guid(7899cf3aec1baef459de46b4df17ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Regular SDF.asset using Guid(7899cf3aec1baef459de46b4df17ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9855afe702d2f877f97b2ce610d9142c') in 0.045833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 12.699440 seconds.
+  path: Assets/Fonts/UI Import/Gabarito-Regular SDF.asset
+  artifactKey: Guid(7899cf3aec1baef459de46b4df17ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Gabarito-Regular SDF.asset using Guid(7899cf3aec1baef459de46b4df17ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828a3a7ec3f1ea50e3723eb6237025b2') in 0.042136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 8.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.448 seconds
+Domain Reload Profiling: 2155ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1449ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 9.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.1 KB). Loaded Objects now: 4523.
+Memory consumption went from 140.5 MB to 140.3 MB.
+Total: 3.863700 ms (FindLiveObjects: 0.313100 ms CreateObjectMapping: 0.299900 ms MarkObjects: 2.922300 ms  DeleteObjects: 0.327000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 299.082026 seconds.
+  path: Assets/Fonts/UI Import/Quicksand-Bold shadow.asset
+  artifactKey: Guid(2965410e4ba30a24083c643f9d7aa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Quicksand-Bold shadow.asset using Guid(2965410e4ba30a24083c643f9d7aa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedc9d7d0e321140f6c0056a2d6461e9') in 0.160768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 13.859063 seconds.
+  path: Assets/Fonts/UI Import/Gabarito-Bold shadow.asset
+  artifactKey: Guid(2965410e4ba30a24083c643f9d7aa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/UI Import/Gabarito-Bold shadow.asset using Guid(2965410e4ba30a24083c643f9d7aa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5398ed903a5f6400d03819284e5d80c') in 0.046864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
