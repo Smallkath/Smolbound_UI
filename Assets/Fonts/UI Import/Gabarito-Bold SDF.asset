@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Quicksand-Bold Atlas Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_Parent: {fileID: 2100000, guid: 8a42b48fc760e2a4e815f9dffe5787f1, type: 2}
+  m_Parent: {fileID: 2100000, guid: 5eda86ded809d454e9118875af412d1c, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -26,7 +26,7 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FaceColor: {r: 1, g: 0.92158204, b: 0.79129815, a: 1}
   m_BuildTextureStacks: []
 --- !u!28 &-2317320757178396336
 Texture2D:
@@ -88,12 +88,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Gabarito-Bold SDF
   m_EditorClassIdentifier: 
-  hashCode: -1183279196
+  hashCode: 1494944476
   material: {fileID: -3789683749260502703}
-  materialHashCode: -2023877116
+  materialHashCode: -915560324
   m_Version: 1.1.0
-  m_SourceFontFileGUID: 3a9c7a1a57e345243a8cb5a919352a39
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 3a9c7a1a57e345243a8cb5a919352a39, type: 3}
+  m_SourceFontFileGUID: 0ef6d16b65f17894fad7ee8cdb6b34ab
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 0ef6d16b65f17894fad7ee8cdb6b34ab, type: 3}
   m_SourceFontFile: {fileID: 12800000, guid: 3a9c7a1a57e345243a8cb5a919352a39, type: 3}
   m_AtlasPopulationMode: 1
   m_FaceInfo:

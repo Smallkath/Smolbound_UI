@@ -68,7 +68,7 @@ MonoBehaviour:
   m_text: '{Island Name}'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bf6c4b406c48d740b621c6e657fb36f, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 2b72d615d6d99124e86f3feb6bceba70, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 1a5eaab478b453744a8cdb00ddd7f3c3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 4, y: 4, z: 4, w: 4}
+  m_margin: {x: 19, y: 4, z: 19, w: 4}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -193,14 +193,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1764706, g: 0.22745098, b: 0.4, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65db78626d7101f42816401cb8c30636, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e446ac845207964aa6c88bd2b5399a7, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

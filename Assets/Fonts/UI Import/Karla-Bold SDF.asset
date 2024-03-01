@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Karla-Bold SDF
   m_EditorClassIdentifier: 
-  hashCode: 2100734054
+  hashCode: -1863448276
   material: {fileID: 1382328267626630064}
-  materialHashCode: 1633744390
+  materialHashCode: 1963899532
   m_Version: 1.1.0
   m_SourceFontFileGUID: c627fd22575692840b939fafb9701519
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: c627fd22575692840b939fafb9701519, type: 3}
