@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 730464026059525050, guid: fd494c58cb3167b48b0d54c748f70205, type: 3}
       propertyPath: m_Name
-      value: Dropdown_Filter
+      value: Dropdown_Filter Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3054674709410244577, guid: fd494c58cb3167b48b0d54c748f70205, type: 3}
       propertyPath: m_Pivot.x

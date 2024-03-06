@@ -32,10 +32,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1982088273660784715}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.070959195, y: 0.12581818}
+  m_AnchorMax: {x: 0.92904085, y: 0.8741818}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -0.0000034570694, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6269528599241640062
 CanvasRenderer:
@@ -65,12 +65,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '{Text
-
-    Option}'
+  m_text: '{Text Option}'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2965410e4ba30a24083c643f9d7aa136, type: 2}
-  m_sharedMaterial: {fileID: -3789683749260502703, guid: 2965410e4ba30a24083c643f9d7aa136, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4bf6c4b406c48d740b621c6e657fb36f, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 85e6a87fcf327924a8fd07d9cc53be06, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -130,7 +128,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 10, y: 7, z: 10, w: 7}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -232,7 +230,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 0.1764706, g: 0.22745098, b: 0.4, a: 1}
     m_HighlightedColor: {r: 1, g: 0.6, b: 0, a: 1}
@@ -242,9 +240,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: cf9640bcf1057a34bb884a33b35baf6e, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: cf9640bcf1057a34bb884a33b35baf6e, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: cf9640bcf1057a34bb884a33b35baf6e, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal

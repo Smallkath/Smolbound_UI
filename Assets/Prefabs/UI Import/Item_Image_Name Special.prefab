@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.5254902
       objectReference: {fileID: 0}
+    - target: {fileID: 143208207165270317, guid: a08603a393d160240ab44323c532f96e, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 4.24
+      objectReference: {fileID: 0}
     - target: {fileID: 1528789617163498979, guid: a08603a393d160240ab44323c532f96e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.94099617
@@ -333,7 +337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7307098418330974193, guid: a08603a393d160240ab44323c532f96e, type: 3}
       propertyPath: m_fontSize
-      value: 12.15
+      value: 13.55
       objectReference: {fileID: 0}
     - target: {fileID: 7307098418330974193, guid: a08603a393d160240ab44323c532f96e, type: 3}
       propertyPath: m_fontAsset

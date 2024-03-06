@@ -91,6 +91,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2578882967594132961, guid: dc67b85440068464da5e7eddc7b861cc, type: 3}
+      propertyPath: m_fontSize
+      value: 25.75
+      objectReference: {fileID: 0}
     - target: {fileID: 2991390919614440207, guid: dc67b85440068464da5e7eddc7b861cc, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -209,7 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 3e41bbe1e21b1fb478bd69f70dfde757, type: 3}
     - target: {fileID: 7838305879659803599, guid: dc67b85440068464da5e7eddc7b861cc, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
-      value: 0.9
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -246,7 +250,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2791515864159039109, guid: 08f175a8ceb510c41a02dc436b402acf, type: 3}
       propertyPath: m_fontSize
-      value: 20
+      value: 20.8
       objectReference: {fileID: 0}
     - target: {fileID: 3456517939449212116, guid: 08f175a8ceb510c41a02dc436b402acf, type: 3}
       propertyPath: m_Pivot.x

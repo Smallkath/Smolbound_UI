@@ -189,12 +189,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6863186686469402434, guid: 6f7bc860445f7964aa588d1f29de86b5, type: 3}
       propertyPath: m_fontSize
-      value: 47.2
+      value: 49.15
       objectReference: {fileID: 0}
     - target: {fileID: 6863186686469402434, guid: 6f7bc860445f7964aa588d1f29de86b5, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 8a42b48fc760e2a4e815f9dffe5787f1, type: 2}
+      objectReference: {fileID: 2100000, guid: 85e6a87fcf327924a8fd07d9cc53be06, type: 2}
     - target: {fileID: 7300631093705220666, guid: 6f7bc860445f7964aa588d1f29de86b5, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
