@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
+  m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -311,7 +311,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 481.83, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3483290683389968294
 CanvasRenderer:
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_text: '{Description} '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d7848985b82e9cc4b834a074a0dd9e5f, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 5b04feae37199dc44b871253b114b82a, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 32723bc27967b6c47a21f480f66d5fe2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
